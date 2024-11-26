@@ -1,0 +1,6 @@
+# Add CI specific values here
+spec:
+  helm:
+    valueFiles:
+      - values.yaml
+      - values-ci.yaml

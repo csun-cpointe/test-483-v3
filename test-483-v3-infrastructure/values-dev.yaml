@@ -1,0 +1,18 @@
+jenkins:
+  enabled: false
+ingress-nginx:
+  enabled: false
+argo-cd:
+  crds:
+    keep: false
+  configs:
+    cm:
+      admin.enabled: false
+      users.anonymous.enabled: true
+    params:
+      server.insecure: true
+    rbac:
+      policy.default: "role:admin"
+  server:
+    ingress:
+      enabled: true
