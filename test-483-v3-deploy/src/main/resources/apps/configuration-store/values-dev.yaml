@@ -19,4 +19,4 @@ aissemble-configuration-store-chart:
   # Example: '/mnt/c' or '/mnt/wsl/rancher-desktop'
   configurationVolume:
     storageType: "local"
-    volumePathOnNode: "/Users/csun/bah/tests/test-483-v3/src/main/resources/configurations"
+    volumePathOnNode: "/Users/csun/bah/tests/test-483-v3/test-483-v3-deploy/src/main/resources/configurations"
