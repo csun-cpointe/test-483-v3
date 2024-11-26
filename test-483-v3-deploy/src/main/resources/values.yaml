@@ -1,7 +1,7 @@
 spec:
   destination:
     server: https://kubernetes.default.svc
-  targetRevision: dev
+  targetRevision: main
   repo: https://github.com/csun-cpointe/test-483-v3.git
   helm:
     valueFiles:
